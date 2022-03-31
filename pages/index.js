@@ -14,9 +14,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Read{' '}
+          Look At{' '}
           <Link href="/gallery">
-            <a>This Page!</a>
+            <a>Gallery!</a>
           </Link>
         </h1>
 
