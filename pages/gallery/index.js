@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Image from 'next/image'
 
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
             <h1 className="title">
                 Hello World!
             </h1>
-            <img src="/images/chopperHat.png" />
+            <Image src="/images/chpperHat.png" alt="profile" width={200} height={200} />
         </div>      
     )
 }
