@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import link from 'next/link'
 
 export default function Home() {
   return (
@@ -16,10 +17,14 @@ export default function Home() {
           Learn <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <button className={styles.button}>
+          <Link href="/gallery">
+            <a className={styles.buttonLink}>
+              <Image src="/images/nextjs.svg" alt="Next.js" width={32} height={32} />
+              <span className={styles.buttonText}>Gallery</span>
+            </a>
+          </Link>
+        </button>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
