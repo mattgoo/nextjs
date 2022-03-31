@@ -1,6 +1,13 @@
+import Link from 'next/link'
+
 export default function Home() {
     return (
-        <h1>Hello World</h1>
+        <div className="container">
+            <h1>Gallery Display Page</h1>
+            <Link href="/gallery/display">
+                <a>Go to Gallery Page</a>
+            </Link>
+        </div>
     )
 }
 
