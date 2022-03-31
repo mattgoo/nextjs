@@ -7,7 +7,7 @@ export default function Home() {
             <h1 className="title">
                 Hello World!
             </h1>
-            <Image src="/images/chpperHat.png" alt="profile" width={200} height={200} />
+            <Image src="/images/chopperHat.png" alt="chopperHat" width={200} height={200} />
         </div>      
     )
 }
