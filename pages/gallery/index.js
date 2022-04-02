@@ -3,11 +3,12 @@ import styles from '../../styles/Home.module.css'
 import Head from 'next/head' //Changes the tab title
 import Link from 'next/link' //Link to another page
 import Script from 'next/script' //Allows you to add scripts to the page
+import Layout from '../../components/layout'
 
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <Layout>
             <Head>
                 <title>Gallery!</title>
             </Head>
@@ -33,7 +34,7 @@ export default function Home() {
 
 
             <Image src="/images/chopperHat.png" alt="chopperHat" width={200} height={200} />
-        </div>      
+        </Layout>      
     )
 }
 
