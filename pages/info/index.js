@@ -7,9 +7,21 @@ export default function Home() {
     return (
         // three equal size divs separated by a black vertical line 
         <div className={styles.container}>
-            <div className={styles.Info} />
-            <div className={styles.Gallery} />
-            <div className={styles.Projects} />
+            <div className={styles.Info} >
+                <h1>
+                    Info!
+                </h1>
+            </div>
+            <div className={styles.Gallery}>
+                <h1>
+                    Gallery!
+                </h1>
+            </div>
+            <div className={styles.Projects}>
+                <h1>
+                    Projects!
+                </h1>
+            </div>
         </div>
     )
 }
