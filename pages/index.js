@@ -19,8 +19,8 @@ export default function Home() {
             <a>Gallery!</a>
           </Link>
           <Link href="/info">
-          <a>Info!</a>
-        </Link>
+            <a>Info!</a>
+          </Link>
         </h1>
 
         {/* link to info page */}
