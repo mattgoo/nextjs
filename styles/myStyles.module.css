@@ -12,14 +12,17 @@
 }
 
 .Info { 
-    grid-area: 
-    Info; 
+    grid-area: Info; 
+    justify-content: center;
+    align-content: center;
   }
 .Gallery { 
-    grid-area: 
-    Gallery; 
+    grid-area: Gallery; 
+    justify-content: center;
+    align-content: center;
   }
 .Projects { 
-    grid-area: 
-    Projects; 
+    grid-area: Projects;
+    justify-content: center;
+    align-content: center;
 }
