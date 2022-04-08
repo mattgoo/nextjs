@@ -10,3 +10,16 @@
     "Info Gallery Projects"
     "Info Gallery Projects";
 }
+
+.Info { 
+    grid-area: 
+    Info; 
+  }
+.Gallery { 
+    grid-area: 
+    Gallery; 
+  }
+.Projects { 
+    grid-area: 
+    Projects; 
+}
