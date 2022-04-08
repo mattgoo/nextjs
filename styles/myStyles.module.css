@@ -3,26 +3,26 @@
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  justify-content: center;
-  align-content: center;
   grid-template-areas:
     "Info Gallery Projects"
     "Info Gallery Projects"
     "Info Gallery Projects";
 }
 
-.Info { 
-    grid-area: Info; 
-    justify-content: center;
-    align-content: center;
-  }
-.Gallery { 
-    grid-area: Gallery; 
-    justify-content: center;
-    align-content: center;
-  }
-.Projects { 
-    grid-area: Projects;
-    justify-content: center;
-    align-content: center;
+.Info {
+  justify-self: center;
+  align-self: center;
+  grid-area: Info;
+}
+
+.Gallery {
+  justify-self: center;
+  align-self: center;
+  grid-area: Gallery;
+}
+
+.Projects {
+  justify-self: center;
+  align-self: center;
+  grid-area: Projects;
 }
