@@ -1,31 +1,12 @@
 .container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    justify-content: center;
-    align-content: center;
-    grid-template-areas:
-      "Info Gallery Projects"
-      "Info Gallery Projects"
-      "Info Gallery Projects";
-  }
-  
-  .Info { 
-      grid-area: 
-      Info; 
-    }
-  .Gallery { 
-      grid-area: 
-      Gallery; 
-    }
-  .Projects { 
-      grid-area: 
-      Projects; 
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  grid-template-areas:
+    "Info Gallery Projects"
+    "Info Gallery Projects"
+    "Info Gallery Projects";
 }
-  
-  
-  html, body , .container {
-    height: 100%;
-    margin: 0;
-  }
