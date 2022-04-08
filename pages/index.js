@@ -18,12 +18,13 @@ export default function Home() {
           <Link href="/gallery">
             <a>Gallery!</a>
           </Link>
+          <Link href="/info">
+          <a>Info!</a>
+        </Link>
         </h1>
 
         {/* link to info page */}
-        <Link href="/info">
-          <a>Info!</a>
-        </Link>
+
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>

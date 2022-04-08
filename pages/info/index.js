@@ -1,33 +1,15 @@
 import Link from 'next/link'
+import styles from '../../styles/myStyles.css'
 
 
 export default function Home() {
     return (
-        // three equal size divs separated by a vertical line
-        <div className="container">
-            <div className="row">
-                <div className="col-md-4">
-                    <h1>
-                        <Link href="/">
-                            <a>Go Home!</a>
-                        </Link>
-                    </h1>
-                </div>
-                <div className="col-md-4">
-                    <h1>
-                        <Link href="/gallery">
-                            <a>Gallery!</a>
-                        </Link>
-                    </h1>
-                </div>
-                <div className="col-md-4">
-                    <h1>
-                        <Link href="/info">
-                            <a>Info!</a>
-                        </Link>
-                    </h1>
-                </div>
-            </div>
+        // three equal size divs separated by a black vertical line
+        <div className={styles.container}>
+            <div className={styles.Info}></div>
+            <div className={styles.Gallery}></div>
+            <div className={styles.Projects}></div>
         </div>
-    );
+    )
 }
+
