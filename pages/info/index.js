@@ -12,6 +12,7 @@ export default function Home() {
                     Info!
                 </h1>
             </div>
+            <div className={styles.vl}></div>
             <div className={styles.Gallery}>
                 <h1>
                     Gallery!
